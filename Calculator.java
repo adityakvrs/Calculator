@@ -29,7 +29,9 @@ public class Calculator {
 	       case '/':
 	            System.out.println(o.div(first,second));
 	            break;
-         
+		default:
+         		System.out.println("Invalid Operation...");
+	    }
 	    }
 	   }
 	    
