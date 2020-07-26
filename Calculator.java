@@ -6,7 +6,7 @@ public class Calculator {
 	{
 	    int first,second,result;
 	    char operation;
-	    Operations o=new Operations();
+	    CalculateOperations o=new CalculateOperations();
 	    Scanner input=new Scanner(System.in);
 	    System.out.println("Enter First Number" );
 	    first=input.nextInt();
